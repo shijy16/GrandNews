@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/checkbox_text"
+        android:text="@string/choose_classes"
+        android:textColor="@color/colorBlack"
+        android:textSize="15sp"
+        android:layout_width="0dp"
+        android:layout_weight="5"
+        android:layout_height="wrap_content" />
+    <CheckBox
+        android:id="@+id/box"
+        android:gravity="end"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" />
+</LinearLayout>

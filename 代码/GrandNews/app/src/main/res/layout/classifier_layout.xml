@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.java.ShiJingyi.MainActivity">
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        app:tabBackground="@color/colorWhite"
+        app:tabGravity="center"
+        app:tabIndicatorColor="@color/colorBlue"
+        app:tabMode="scrollable"
+        app:tabSelectedTextColor="@color/colorBlack"
+        app:tabTextColor="@color/colorGray" />
+
+    <com.java.ShiJingyi.MyViewPager
+        android:background="@color/colorWhite"
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

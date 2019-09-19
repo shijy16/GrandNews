@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ProgressBar
+        android:id="@+id/progressBarLoading"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="3dp" />
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/cor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2">
+        <WebView android:id="@+id/webView"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+
+        </WebView>
+    </android.support.v4.widget.NestedScrollView>
+        <com.getbase.floatingactionbutton.FloatingActionsMenu
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fam"
+            android:layout_margin="16dp"
+            app:layout_anchor="@id/scrollView2"
+            app:layout_anchorGravity="bottom|right|end"
+            android:scaleType="center"
+            android:focusable="true"
+            android:clickable="true"
+            app:elevation="10dp"
+            app:pressedTranslationZ="12dp"
+            app:fab_addButtonColorNormal="@color/hTransparent"
+            app:fab_addButtonColorPressed="@color/colorGray"
+            app:fab_addButtonPlusIconColor="@color/colorWhite"
+            app:fab_addButtonSize="mini"
+            app:fab_labelsPosition="right">
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fab_colorNormal="@color/hTransparent"
+                app:fab_colorPressed="@color/colorGray"
+                app:fab_icon="@drawable/share"
+                app:fab_size="mini"/>
+
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/like"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fab_colorNormal="@color/hTransparent"
+                app:fab_colorPressed="@color/colorGray"
+                app:fab_size="mini"/>
+
+        </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+
+</LinearLayout>

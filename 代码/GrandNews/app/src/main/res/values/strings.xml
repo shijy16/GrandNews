@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">石景宜_News</string>
+    <string name="choose_classes">勾选新闻类别</string>
+    <string name="creat_account">输入账户名</string>
+    <string name="sure">确认</string>
+    <string name="lova">我的收藏</string>
+    <string name="cancel">取消</string>
+    <string name="newac">添加新账户</string>
+    <string name="another">使用其他账户</string>
+    <string name="search">新闻搜索</string>
+    <string name="search_here">搜索时用空格隔开关键词</string>
+    <string name="loadmore">上拉加载更多...</string>
+    <string name="nomore">已经到底了</string>
+    <string name="smart">开启智能推荐</string>
+    <string name="history">历史记录</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="change_classyfier">修改分类列表</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="title">Grand News</string>
+</resources>

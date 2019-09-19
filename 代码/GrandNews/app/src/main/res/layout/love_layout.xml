@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10">
+    <TextView
+        android:background="@color/colorBlue"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/lova"
+        android:id="@+id/love_text"
+        android:textAlignment="center"
+        android:gravity="center_vertical"
+        android:textSize="25sp"
+        android:textColor="@color/colorWhite" />
+    <ListView
+        android:id="@+id/love_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:cacheColorHint="@android:color/transparent"
+        android:clipToPadding="false"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="12dp"
+        android:fadeScrollbars="true"
+        android:listSelector="@android:color/transparent"
+        android:padding="12dp"
+        android:scrollbarStyle="outsideOverlay"
+        android:layout_weight="9"
+        android:scrollingCache="false" />
+
+</LinearLayout>
